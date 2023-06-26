@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+body {
+    display:inline-block;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 10px;
+    margin-left: auto ;
+    height: 80px;
+    position: fixed;
+    top:0%;
+    opacity: 0.7;
+}
+.site {
+    display: block;
+    margin: -28px 0px;
+}
+
+.site-name:first-child {
+    margin-top: 10px;
+}
+.site-name {
+    display: inline-block;
+    font-family: Pacifico;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    margin-left: 100px;
+}
+
+
+.header-menu {
+    display:relative;
+    margin-right: 20px;
+    margin-left: auto;
+    float: right;
+    
+}
+.header-menu-item {
+    display:inline;
+    margin-right: 20px;
+}
+
+.header-menu-item a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.9);   
+}
+
+#viewer {
+    margin: 90px 0 0;
+    background-image: url('./img/scene2.jpeg');
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+
+}
+
+.section-textblock {
+    width: 42%;
+}
+.section-text {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    
+}
+
+.welcome-position {
+padding-left: 7%;
+}
+
+.color-separator {
+    width: 15%;
+    height: 4px;
+    background-color: #0FB8CD;
+}
+
+.section-button {
+    border: transparent;
+    border-radius: 6px;
+    font-size: 1.0em;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    margin-right: 15px;
+}
+
+.btn-size-large {
+    width: 250px;
+    height: 40px;
+}
+
+.btn-size-default {
+    width:200px;
+    height: 40px;
+}
+
+.color-blue {
+    background-color: rgb(15,184,205);
+    box-shadow: 2px 3px 4px rgba(15,184,205, 0.5);
+    transition: background-color 700ms;
+}
+
+.color-blue:hover {
+    background-color: rgba(0, 14, 16, 0.9);
+    box-shadow: 2px 3px 4px rgba(15,184,205, 0.5);
+}
+
+.color-brown {
+    background-color: rgb(227,202,148);
+    box-shadow: 2px 3px 4px rgba(227,202,148, 0.5);
+    transition: background-color 700ms;
+}
+
+.color-brown:hover {
+    background-color: rgba(218, 174, 78, 0.8);
+    box-shadow: 2px 3px 4px rgba(227,202,148, 0.5);
+}
+
+#btn-calendar::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('./icos/calendar2inv.ico');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 6px;
+}
+
+.welcome-image {
+    position:relative;
+    background-image: url('./img/scene1.jpeg');
+    background-position: left;
+    background-size: cover;
+    width: 40vw;
+    height: 250px;
+    top: -245px;
+    left:110%;
+}
+
+#main-description {
+    /* height: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.desk-block {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.desc-reply {
+    background-image: url('./img/scene2.jpeg'); 
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.desc-reply::after {
+    position: relative;
+    background-color: rgba(15,184,205, 0.4);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top:-180px;
+}
+
+/* #block-1 {
+    background-image: url('./icos/mind1.ico');
+} */
+
+.serv-blocks {
+    background-color: rgb(36,36,36);  
+}
+
+.service-block {
+    background-color: #fff;
+    height: 125px;
+    width: 150px;
+    
+}
+
+.desc-services {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+      
+
+}
+
+.description-grid-wrapper{
+    position: relative;
+    transform: translate(31%, 0%);
+    max-width: 310px ;
+    max-height: 350px;
+}
+
+.description-block-text {
+    position: relative;
+    text-align: center;
+    top: 30%;
+    
+}
+
+.heading-white , .section-text-white{
+    color: #fff;
+}
+
+.separator-white {
+    background-color: #fff;
+}
+
+.article-text-block {
+    width: 80%;
+    position: relative;
+    left: 12%;
+}
+
+footer {
+    background-color: rgb(248,248,249);
+    height:fit-content;
+}
